@@ -1,0 +1,26 @@
+2023-10-23T08:58:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded di C:\xampp\htdocs\wordpress\wp-includes\Requests\src\Transport\Curl.php pada baris 534
+
+2023-10-23T13:25:10+00:00 CRITICAL Uncaught Error: Class 'Vilva_Note_Control' not found in C:\xampp\htdocs\wordpress\wp-content\themes\yummy-recipe\functions.php:75
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): yummy_recipe_customize_register(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(940): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-settings.php(654): do_action('wp_loaded')
+#8 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xam di C:\xampp\htdocs\wordpress\wp-content\themes\yummy-recipe\functions.php pada baris 75
+
+2023-10-23T13:25:49+00:00 CRITICAL Uncaught Error: Class 'Vilva_Note_Control' not found in C:\xampp\htdocs\wordpress\wp-content\themes\yummy-recipe\functions.php:75
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): yummy_recipe_customize_register(Object(WP_Customize_Manager))
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\class-wp-customize-manager.php(940): do_action('customize_regis...', Object(WP_Customize_Manager))
+#4 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(310): WP_Customize_Manager->wp_loaded('')
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(334): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wordpress\wp-settings.php(654): do_action('wp_loaded')
+#8 C:\xampp\htdocs\wordpress\wp-config.php(96): require_once('C:\\xam di C:\xampp\htdocs\wordpress\wp-content\themes\yummy-recipe\functions.php pada baris 75
+
